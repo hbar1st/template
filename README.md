@@ -11,7 +11,8 @@ Instructions to use this template in GitHub and for cloning:
 
 Instructions for running the build (dev mode and prod mode):
 
-- From the root path of the repo run `npm run dev` to start a web server and perform development
+- From the root path of the repo run `npm install` first to download the dependencies then
+- run `npm run dev` to start a web server and perform development
 - the TOP webpack lesson has examples of how to import/export css/images/code <https://www.theodinproject.com/lessons/javascript-webpack>
 - Use normal `git add .` and `git commit -m ...` to work on the files until the app is complete
 - run `npm run build` when you're ready for production push (preview path will be http://localhost:8080/)
